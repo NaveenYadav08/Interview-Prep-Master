@@ -24,7 +24,7 @@ A web application made using Node.js framework to ease the process of interivew 
 The home page contains navbar , body and footer .
 * Before authentication it shows two options signup and login .
 
-![](/website/bfauth.png)
+![](/website/1_edited.jpg)
 
 * After login it displays user's username and gives access to all other parts of the website
 
