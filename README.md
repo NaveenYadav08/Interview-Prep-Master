@@ -28,7 +28,7 @@ The home page contains navbar , body and footer .
 
 * After login it displays user's username and gives access to all other parts of the website
 
-![](/website/afauth.png)
+![](/website/2_edited.jpg)
 
 
 ### Practice Section
@@ -36,17 +36,17 @@ The home page contains navbar , body and footer .
 A user can practice many questions topic wise . 
 * Topics page contains several topics
 
-![](/website/topics.png)
+![](/website/3_edited.jpg)
 
 * A particular topic's page contains all questions related to that topic
 
-![](/website/questions.png)
+![](/website/4_edited.jpg)
 
 ### Experiences
 A user can read many interview experiences company wise . 
 Companies page contains several companys displayed on card
 
-![](/website/companies.png)
+![](/website/5_edited.jpg)
 
 A particular company's page contains all experiences related to that company
 
@@ -56,11 +56,11 @@ A user can contribute as well .
 
 * Adding Questions
 
-![](/website/questionform.png) 
+![](/website/6_edited.jpg) 
 
 * Adding Experience
 
-![](/website/experienceform.png)
+![](/website/7_edited.jpg)
 
 A user added question or experience needs admin approval to be displayed in the website . If a admin adds it gets saved and displayed by default.
 
@@ -68,12 +68,12 @@ A user added question or experience needs admin approval to be displayed in the 
 
 * Authenticated admin panel 
 
-![](/website/adminauth.png)
+![](/website/8_edited.jpg)
 
 * Admins can add , delete modify models data and also approve questions or experiences added by users .
 
-![](/website/adminpanel.png)
+![](/website/9_edited.jpg)
 
-# [Certificate of Appreciation](https://drive.google.com/file/d/1QLo9nh_SHCCnCU0Qx3LckVIQv6-YaOi_/view?usp=sharing)
+
 
 
