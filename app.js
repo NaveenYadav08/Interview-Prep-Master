@@ -122,10 +122,14 @@ const appsetup = (database) => {
   app.use(admin.options.rootPath, router);
 
   const port = 3000;
-  app.listen(port, () => {
-    // do not add localhost here if you are deploying it
-    console.log("server listening to port " + port);
-  });
+//   app.listen(port, () => {
+//     // do not add localhost here if you are deploying it
+//     console.log("server listening to port " + port);
+//   });
+ 
+ app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
 
   //middleware
   app.use(express.static("public"));
