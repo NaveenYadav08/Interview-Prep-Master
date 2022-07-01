@@ -15,6 +15,7 @@ const buildAdminRouter = require("./admin/admin.router");
 const options = require("./admin/admin.options");
 
 const { createAdmin } = require("./models/Admin");
+const Experience = require("./models/Experience");
 const { createUser } = require("./models/User");
 
 const createAdminCumUser = (email, username, password) => {
@@ -219,4 +220,15 @@ const appsetup = (database) => {
       })
       .catch((err) => console.log("error3 ", err));
   });
+  
+  
+  
+    // get new page for selected experince
+  app.get("/companys/:c_name/:expid", isAuth, async (req, res) => {
+    let exp_id = req.params.expid;
+    const foundexp = await Experience.findOne({ _id: exp_id });
+    res.render("experience", { experience: foundexp });
+  });
+  
+  
 };
