@@ -224,7 +224,7 @@ const appsetup = (database) => {
   
   
     // get new page for selected experince
-  app.get("/companys/:c_name/:expid", isAuth, async (req, res) => {
+  app.get("/companys/:c_name/:expid", requireAuth, async (req, res) => {
     let exp_id = req.params.expid;
     const foundexp = await Experience.findOne({ _id: exp_id });
     res.render("experience", { experience: foundexp });
